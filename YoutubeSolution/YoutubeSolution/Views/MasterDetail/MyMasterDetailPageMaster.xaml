@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YoutubeSolution.Views.MasterDetail.MyMasterDetailPageMaster"
+             Title="Master">
+    <StackLayout>
+       <StackLayout>
+        <ListView x:Name="MenuItemsListView" SeparatorVisibility="None" HasUnevenRows="true" ItemsSource="{Binding MenuItems}">
+            <ListView.Header>
+               <StackLayout  VerticalOptions="FillAndExpand" Padding="0" Margin="0,0,0,25" >
+               <StackLayout Padding="10,10" Orientation="Horizontal"   WidthRequest="300"  HeightRequest="50"  BackgroundColor="White">
+                   <ImageButton Source="Icon_User.png" BackgroundColor="Transparent" HeightRequest="55" VerticalOptions="Center"  HorizontalOptions="Start" Padding="5,5"/>
+                   <Label Text="Brian Fortuna" Font="Montserrat-Medium.otf" TextColor="Black" FontAttributes="Bold" FontSize="17" VerticalOptions="Center" HorizontalOptions="Start"  />
+               </StackLayout>
+                   <BoxView WidthRequest="2" HeightRequest="2" BackgroundColor="#f2f3f3" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+            </ListView.Header>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                   <ViewCell >
+                        <StackLayout  HorizontalOptions="FillAndExpand" Orientation="Vertical" >
+                            
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Padding="10,12" Spacing="10">
+                                    <Image Source="{Binding Icon}" HeightRequest="30" VerticalOptions="FillAndExpand"/>
+                                    <Label Text="{Binding Title}" VerticalOptions="Center" Font="Montserrat-Medium.otf" FontAttributes="Bold" FontSize="15" TextColor="Black"/>
+                                </StackLayout>
+                   <BoxView WidthRequest="1" HeightRequest="1" BackgroundColor="#fcfcfc" HorizontalOptions="FillAndExpand"/>
+
+                            </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+             <StackLayout Orientation="Vertical" Padding="0" VerticalOptions="FillAndExpand">
+            <Frame BackgroundColor="#157545" HasShadow="{OnPlatform Android=true, iOS=false}" CornerRadius="0"/>
+        </StackLayout>
+    </StackLayout>
+  </StackLayout>
+</ContentPage>

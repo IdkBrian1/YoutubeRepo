@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MasterDetailPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="YoutubeSolution.Views.MasterDetail.MyMasterDetailPage"
+    xmlns:pages="clr-namespace:YoutubeSolution.Views.MasterDetail"
+    xmlns:pagess="clr-namespace:YoutubeSolution.Views.Tabbed">
+
+    <MasterDetailPage.Master>
+        <pages:MyMasterDetailPageMaster x:Name="MasterPage" />
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+               <pagess:PageOne/>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

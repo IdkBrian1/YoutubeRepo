@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{97BE6174-05B8-4775-A84C-E8E25F03465E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="YoutubeSolution/Views/MasterDetail/MyMasterDetailPageMaster.xaml">
+    <Files>
+      <File FileName="YoutubeSolution/Views/MasterDetail/MyMasterDetailPage.xaml" Line="15" Column="15" />
+      <File FileName="YoutubeSolution/Views/MasterDetail/MyMasterDetailPageMenuItem.cs" Line="17" Column="24" />
+      <File FileName="YoutubeSolution/Views/MasterDetail/MyMasterDetailPageMaster.xaml.cs" Line="39" Column="77" />
+      <File FileName="YoutubeSolution/Views/MasterDetail/MyMasterDetailPageMaster.xaml" Line="39" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="YoutubeSolution" expanded="True">
+            <Node name="YoutubeSolution" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="MasterDetail" expanded="True">
+                  <Node name="MyMasterDetailPageMaster.xaml" selected="True" />
+                </Node>
+                <Node name="Tabbed" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.YoutubeSolution.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1EC7693C-C1BB-4440-83BF-2899AA0D40E6" />
+  <MonoDevelop.Ide.ItemProperties.YoutubeSolution.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel_3a_xl_pie_9_0_-_api_28" />
+</Properties>
