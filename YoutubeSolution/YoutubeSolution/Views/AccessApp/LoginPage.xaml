@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="YoutubeSolution.Views.AccessApp.LoginPage"
+    BackgroundColor="White">
+    <ContentPage.Content>
+         <ScrollView>
+
+        <Grid RowSpacing="{OnPlatform iOS=25,Android=18}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90"/> <!---->
+                    <RowDefinition Height="Auto"/>  <!--1-->
+                    <RowDefinition Height="Auto"/>  <!--2-->
+                    <RowDefinition Height="Auto"/>  <!--3-->
+                    <RowDefinition Height="Auto"/>  <!--4-->
+                    <RowDefinition Height="Auto"/>  <!--5-->
+                    <RowDefinition Height="Auto"/>  <!--6-->
+                    <RowDefinition Height="Auto"/>  <!--8-->
+
+
+            </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+         
+
+            <StackLayout Grid.Row="2" HorizontalOptions="Center" Orientation="Vertical" Margin="0,0,0,10">
+                 <Label
+                         Text="Welcome Back"
+                         FontAttributes="Bold"
+                         HorizontalOptions="Center"
+                         FontSize="26"
+                         Margin="0,0,0,5"
+                         WidthRequest="300"
+                         TextColor="{OnPlatform Android=Black}"
+                         />
+                 <Label
+                    Text="Sign in to continue"
+                            TextColor="Black"
+                            FontSize="15"
+                            WidthRequest="300"
+                    />
+            </StackLayout>
+
+            <StackLayout Grid.Row="3" HorizontalOptions="Center" WidthRequest="{OnPlatform iOS=300,Android=300}" Orientation="Vertical"  >
+                <Label
+                    Text="Email"
+                    FontSize="{OnPlatform Android=13}"
+                    TextColor="Black"
+                    />
+                <Frame
+                    HasShadow="{OnPlatform Android=true,iOS=false}"
+                    Padding="{OnPlatform Android=8,iOS=0}"
+                    CornerRadius="{OnPlatform Android=7}"
+                    >
+                <Entry
+                    Placeholder="BFortuna@gmail.com"
+                    Keyboard="Email"
+                    MaxLength="25"
+                    Text="{Binding EmailTxt, Mode=TwoWay}"
+                    IsEnabled="{Binding IsEnabledTxt}"
+                    FontSize="{OnPlatform Android=15,iOS=16}"
+                    />
+                     </Frame>   
+            </StackLayout>
+
+             <StackLayout Grid.Row="4" HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical" >
+                  
+                 <StackLayout Orientation="Horizontal" VerticalOptions="Center" Padding="0">
+                 <Label
+                    Text="Password"
+                    FontSize="{OnPlatform Android=13}"
+                    TextColor="Black"
+                     VerticalOptions="Center"
+                     WidthRequest="150"
+                    />
+                  <Button
+                     Text="¿Forgot password?"
+                     TextColor="Black"
+                     FontSize="{OnPlatform Android=13}"
+                     WidthRequest="150"
+                     HorizontalOptions="End"
+                     BackgroundColor="White"
+                     HeightRequest="30"
+                     Padding="0"
+                     IsEnabled="{Binding IsEnabledTxt}"
+                    />
+                 </StackLayout> 
+                 <Frame
+                     HasShadow="{OnPlatform Android=true,iOS=false}"
+                     Padding="{OnPlatform Android=8,iOS=0}"
+                     CornerRadius="{OnPlatform Android=7}"
+                     >
+
+                   <Entry
+                    Placeholder="******************"
+                    MaxLength="25"
+                    IsPassword="True"
+                    FontSize="{OnPlatform Android=15,iOS=16}"
+                    Text="{Binding PasswordTxt, Mode=TwoWay}"
+                    IsEnabled="{Binding IsEnabledTxt}"
+                    
+                    />
+                    
+                 </Frame>
+
+            </StackLayout>
+
+
+             <StackLayout Grid.Row="5" HorizontalOptions="Center" Padding="0">
+                   <ActivityIndicator
+                       IsRunning="{Binding IsRunningTxt}"
+                       IsVisible="{Binding IsVisibleTxt}"
+                       Color="Black"
+                       Scale="0.8"
+                     
+                       />
+            </StackLayout>
+
+
+            <StackLayout Grid.Row="6" HorizontalOptions="Center" Orientation="Vertical" >
+                      <Button
+                     Text="Log in"
+                            TextColor="Black"
+                            Font="Montserrat-Medium.otf"
+                            FontSize="{OnPlatform Android=15}"
+                            BackgroundColor="#fcfcfc"
+                            BorderColor="#f2f2f2"
+                            BorderWidth="1.5"
+                            WidthRequest="300"
+                            HeightRequest="50"
+                            Command="{Binding LoginCommand}"
+                            IsEnabled="{Binding IsEnabledTxt}" 
+                    />
+                  <Button
+                            Text="Don't have an account? Sign Up"
+                            TextColor="{OnPlatform iOS=Black}"
+                            FontSize="{OnPlatform Android=11,iOS=12}"
+                            BackgroundColor="White"
+                            IsEnabled="{Binding IsEnabledTxt}"
+                            Clicked="SignUp_Clicked"
+                            />
+              
+            </StackLayout>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

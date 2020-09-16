@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "MpAhD+W98NX+sgzbQdMGblLlc/f941mqekfmmyDr93SlNvPJeaUgcUFe+FAzSKGSONMyzWiy7z/4h5LxzGjkNg==",
+  "success": true,
+  "projectFilePath": "/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/YoutubeSolution.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/brianfortuna/.nuget/packages/commonservicelocator/2.0.2/commonservicelocator.2.0.2.nupkg.sha512",
+    "/Users/brianfortuna/.nuget/packages/mvvmlightlibs/5.4.1.1/mvvmlightlibs.5.4.1.1.nupkg.sha512",
+    "/Users/brianfortuna/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "/Users/brianfortuna/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "/Users/brianfortuna/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "/Users/brianfortuna/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "/Users/brianfortuna/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/brianfortuna/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/brianfortuna/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/brianfortuna/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/brianfortuna/.nuget/packages/xamarin.essentials/1.3.1/xamarin.essentials.1.3.1.nupkg.sha512",
+    "/Users/brianfortuna/.nuget/packages/xamarin.forms/4.3.0.908675/xamarin.forms.4.3.0.908675.nupkg.sha512"
+  ],
+  "logs": []
+}
