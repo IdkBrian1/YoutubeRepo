@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="YoutubeSolution.Views.DynamicListView.ListViewPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+        <StackLayout>
+        <ListView
+                        ItemsSource="{Binding ListViewSource}"
+                        HasUnevenRows="True"
+           IsPullToRefreshEnabled="True"
+           IsRefreshing="{Binding IsRefreshing}"
+            
+            
+                        >
+                        <ListView.ItemTemplate >
+                            <DataTemplate  >
+                               <ViewCell>
+                                   <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="60"/>
+                                        </Grid.RowDefinitions>
+
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="50"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <StackLayout  Grid.Column="1" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" Orientation="Vertical">
+                                            <Label Text="{Binding NameField}"  FontSize="12"  />
+                                            <Label Text="{Binding AgeField}" FontSize="12"/>
+                                        </StackLayout>
+                                    </Grid>
+                                    
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+        </StackLayout>
+
+          <StackLayout HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical" >
+                 <Label
+                     Text="Fullname"
+                     FontSize="{OnPlatform Android=13}"
+                     TextColor="Black"/>
+
+                 <Frame
+                     HasShadow="{OnPlatform Android=true,iOS=false}"
+                     Padding="{OnPlatform Android=6,iOS=0}"
+                     CornerRadius="{OnPlatform Android=7}"
+                     >
+                  
+                <Entry
+                    Placeholder="Steve Jobs"
+                    MaxLength="25"
+                    Keyboard="Text"
+                    FontSize="{OnPlatform Android=15,iOS=16}"
+                    Text="{Binding NameTxt, Mode=TwoWay}"
+                    />
+                    
+                       </Frame>
+            </StackLayout>
+
+            <StackLayout>
+                    <StackLayout  HorizontalOptions="Center" WidthRequest="300" Orientation="Horizontal" Spacing="20">
+                 <StackLayout WidthRequest="140">
+
+                 <Label
+                     Text="Age"
+                     FontSize="{OnPlatform Android=13}"
+                     TextColor="Black"/>
+
+                 <Frame
+                     HasShadow="{OnPlatform Android=true,iOS=false}"
+                     Padding="{OnPlatform Android=6,iOS=0}"
+                     CornerRadius="{OnPlatform Android=7}"
+                     >
+                  
+                <Entry
+                    Placeholder="18"
+                    MaxLength="2"
+                    FontSize="{OnPlatform Android=15,iOS=16}"
+                    Keyboard="Numeric"
+                    Text="{Binding AgeTxt, Mode=TwoWay}"
+                    />
+                    
+                       </Frame>
+                 </StackLayout>
+
+
+            </StackLayout>
+
+                <StackLayout>
+
+
+                    <StackLayout Grid.Row="8" HorizontalOptions="Center" Orientation="Vertical" >
+                      <Button
+                     Text="Insert"
+                            TextColor="Black"
+                            Font="Montserrat-Medium.otf"
+                            FontSize="{OnPlatform Android=15}"
+                            BackgroundColor="#fcfcfc"
+                            BorderColor="#f2f2f2"
+                            BorderWidth="1.5"
+                            WidthRequest="300"
+                            HeightRequest="50"
+                            CornerRadius="7"
+                            Command="{Binding InsertCommand}"
+                    />
+               
+            </StackLayout>
+
+                </StackLayout>
+
+            </StackLayout>
+
+            
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

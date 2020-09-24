@@ -4,6 +4,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using YoutubeSolution.Database;
 using YoutubeSolution.Views.AccessApp;
+using YoutubeSolution.Views.DynamicListView;
 using YoutubeSolution.Views.MasterDetail;
 using YoutubeSolution.Views.Tabbed;
 
@@ -32,7 +33,7 @@ namespace YoutubeSolution
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new RegisterPage());  
+            MainPage = new NavigationPage(new ListViewPage());  
             
         }
 

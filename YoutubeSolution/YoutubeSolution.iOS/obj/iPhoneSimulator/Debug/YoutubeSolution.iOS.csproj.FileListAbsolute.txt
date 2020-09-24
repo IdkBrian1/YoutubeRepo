@@ -57,15 +57,15 @@
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/bin/iPhoneSimulator/Debug/YoutubeSolution.dll
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/bin/iPhoneSimulator/Debug/YoutubeSolution.pdb
-/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/ibtool/_BundleResourceWithLogicalName.items
-/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/_PartialAppManifest.items
-/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/_BundleResourceWithLogicalName.items
-/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/coremlc/_PartialAppManifest.items
-/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/coremlc/_BundleResourceWithLogicalName.items
-/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/YoutubeSolution.iOS.csprojAssemblyReference.cache
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/YoutubeSolution.iOS.csproj.CoreCompileInputs.cache
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/YoutubeSolution.iOS.csproj.CopyComplete
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/YoutubeSolution.iOS.exe
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/YoutubeSolution.iOS.pdb
+/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.iOS/obj/iPhoneSimulator/Debug/optimized/

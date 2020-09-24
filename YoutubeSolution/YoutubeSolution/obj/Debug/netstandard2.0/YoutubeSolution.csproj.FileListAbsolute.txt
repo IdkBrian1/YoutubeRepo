@@ -19,3 +19,4 @@
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution/bin/Debug/netstandard2.0/YoutubeSolution.pdb
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution/obj/Debug/netstandard2.0/Views/AccessApp/RegisterPage.xaml.g.cs
+/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution/obj/Debug/netstandard2.0/Views/DynamicListView/ListViewPage.xaml.g.cs

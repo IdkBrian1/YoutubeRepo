@@ -1,20 +1,22 @@
-﻿<Properties StartupConfiguration="{093D9411-1364-4031-8056-4E55502FBA93}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="YoutubeSolution/ViewModels/LoginViewModel.cs">
+﻿<Properties StartupConfiguration="{97BE6174-05B8-4775-A84C-E8E25F03465E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="YoutubeSolution/ViewModels/PersonViewModels.cs">
     <Files>
-      <File FileName="YoutubeSolution/ViewModels/RegisterViewModel.cs" Line="134" Column="1" />
-      <File FileName="YoutubeSolution/App.xaml.cs" Line="35" Column="63" />
-      <File FileName="YoutubeSolution/ViewModels/LoginViewModel.cs" Line="113" Column="1" />
+      <File FileName="YoutubeSolution/Views/DynamicListView/ListViewPage.xaml" Line="11" Column="61" />
+      <File FileName="YoutubeSolution/ViewModels/PersonViewModels.cs" Line="65" Column="15" />
+      <File FileName="YoutubeSolution/Database/DatabaseQuerys.cs" Line="87" Column="60" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="YoutubeSolution" expanded="True">
             <Node name="YoutubeSolution" expanded="True">
+              <Node name="Database" expanded="True" />
               <Node name="ViewModels" expanded="True">
-                <Node name="LoginViewModel.cs" selected="True" />
+                <Node name="PersonViewModels.cs" selected="True" />
               </Node>
-              <Node name="Views" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="DynamicListView" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -24,15 +26,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution/ViewModels/RegisterViewModel.cs" relfile="YoutubeSolution/ViewModels/RegisterViewModel.cs" line="124" column="1" />
-      <Breakpoint file="/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution/ViewModels/RegisterViewModel.cs" relfile="YoutubeSolution/ViewModels/RegisterViewModel.cs" line="132" column="1" />
-      <Breakpoint file="/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution/ViewModels/LoginViewModel.cs" relfile="YoutubeSolution/ViewModels/LoginViewModel.cs" line="95" column="1" />
-      <Breakpoint file="/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution/ViewModels/LoginViewModel.cs" relfile="YoutubeSolution/ViewModels/LoginViewModel.cs" line="97" column="1" />
-      <Breakpoint file="/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution/ViewModels/LoginViewModel.cs" relfile="YoutubeSolution/ViewModels/LoginViewModel.cs" line="107" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.YoutubeSolution.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F2D8CDAA-0E7B-40B6-9817-F268FDA8CCB1" />
+  <MonoDevelop.Ide.ItemProperties.YoutubeSolution.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget." />
   <MonoDevelop.Ide.ItemProperties.YoutubeSolution.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel_3a_xl_pie_9_0_-_api_28" />
 </Properties>

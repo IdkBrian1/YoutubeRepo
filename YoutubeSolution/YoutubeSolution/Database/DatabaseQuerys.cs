@@ -19,6 +19,7 @@ namespace YoutubeSolution.Database
             #region Creacion - Tablas
 
             _database.CreateTableAsync<UserModel>().Wait();
+            _database.CreateTableAsync<PersonModel>().Wait();
             #endregion
         }
 
@@ -65,6 +66,41 @@ namespace YoutubeSolution.Database
             return _database.QueryAsync<UserModel>("SELECT * FROM UserModel WHERE EmailField = '" + email + "' AND PasswordField = '" + password + "'");
         }
 
+        #endregion
+
+
+        #region CRUD - PERSON TABLE
+        public Task<PersonModel> GetPersonModelAynsc(int id)
+        {
+            return _database.Table<PersonModel>()
+                            .Where(i => i.PersonID == id)
+                            .FirstOrDefaultAsync();
+        }
+
+        /* METOD-O SELECT ()*/
+        public Task<List<PersonModel>> GetPersonModel()
+        {
+            return _database.Table<PersonModel>().ToListAsync();
+        }
+
+        /* METOD-O GUARDAR Y ACTUALIZAR ()*/
+        public Task<int> SavePersonModelAsync(PersonModel personModel)
+        {
+            if (personModel.PersonID != 0)
+            {
+                return _database.UpdateAsync(personModel);
+            }
+            else
+            {
+                return _database.InsertAsync(personModel);
+            }
+        }
+
+        /* METOD-O ELIMINAR () */
+        public Task<int> DeletePersonModelAsync(PersonModel personModel)
+        {
+            return _database.DeleteAsync(personModel);
+        }
         #endregion
     }
 }

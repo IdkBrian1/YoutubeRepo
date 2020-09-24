@@ -24,5 +24,6 @@
     <Folder Include="ViewModels\" />
     <Folder Include="Database\" />
     <Folder Include="Views\AccessApp\" />
+    <Folder Include="Views\DynamicListView\" />
   </ItemGroup>
 </Project>
