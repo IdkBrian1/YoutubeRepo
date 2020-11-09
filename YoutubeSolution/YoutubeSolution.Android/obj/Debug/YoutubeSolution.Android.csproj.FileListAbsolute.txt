@@ -483,3 +483,7 @@
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.Android/obj/Debug/android/assets/Firebase.Auth.dll
+/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.Android/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.Android/obj/Debug/android/assets/System.Runtime.Serialization.Primitives.dll
+/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution.Android/obj/Debug/android/assets/System.Text.Encoding.dll

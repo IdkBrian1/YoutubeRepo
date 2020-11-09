@@ -33,7 +33,7 @@ namespace YoutubeSolution
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new ListViewPage());  
+            MainPage = new NavigationPage(new RegisterPage());  
             
         }
 

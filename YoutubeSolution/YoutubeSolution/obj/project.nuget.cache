@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "CnifPzKH9FVYntkpGBxkv4B0T6G+C/kSiCkO+8IvCXHSSM9A+GT5YoNUNXyVzdFAp7GW/SoIyw5EccTPVQnbkA==",
+  "dgSpecHash": "U4T4AQrY7i1ogUWSa7grRq+lmF6Mw7ycmVf+X7BcNb1RN0QwXrmm3VEX6pgB4In+WcxIO2n80ApsYO0tNwKLtQ==",
   "success": true,
   "projectFilePath": "/Users/brianfortuna/Desktop/Programacion/Programacion/Movil/YoutubeRepoFolder/YoutubeRepo/YoutubeSolution/YoutubeSolution/YoutubeSolution.csproj",
   "expectedPackageFiles": [
+    "/Users/brianfortuna/.nuget/packages/firebaseauthentication.net/3.4.0/firebaseauthentication.net.3.4.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/brianfortuna/.nuget/packages/mvvmlightlibs/5.4.1.1/mvvmlightlibs.5.4.1.1.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/brianfortuna/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/brianfortuna/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
     "/Users/brianfortuna/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "/Users/brianfortuna/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",

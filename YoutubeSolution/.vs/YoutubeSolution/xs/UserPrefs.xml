@@ -1,23 +1,24 @@
 ﻿<Properties StartupConfiguration="{97BE6174-05B8-4775-A84C-E8E25F03465E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="YoutubeSolution/ViewModels/PersonViewModels.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="YoutubeSolution/ViewModels/RegisterViewModel.cs">
     <Files>
-      <File FileName="YoutubeSolution/Views/DynamicListView/ListViewPage.xaml" Line="11" Column="61" />
-      <File FileName="YoutubeSolution/ViewModels/PersonViewModels.cs" Line="65" Column="15" />
-      <File FileName="YoutubeSolution/Database/DatabaseQuerys.cs" Line="87" Column="60" />
+      <File FileName="YoutubeSolution/ViewModels/LoginViewModel.cs" Line="98" Column="78" />
+      <File FileName="YoutubeSolution/Views/AccessApp/LoginPage.xaml" Line="135" Column="59" />
+      <File FileName="YoutubeSolution/Views/AccessApp/LoginPage.xaml.cs" Line="14" Column="33" />
+      <File FileName="YoutubeSolution/ViewModels/RegisterViewModel.cs" Line="109" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="YoutubeSolution" expanded="True">
             <Node name="YoutubeSolution" expanded="True">
-              <Node name="Database" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="PersonViewModels.cs" selected="True" />
-              </Node>
+              <Node name="Dependencies" selected="True" />
               <Node name="Views" expanded="True">
-                <Node name="DynamicListView" expanded="True" />
+                <Node name="AccessApp" expanded="True">
+                  <Node name="LoginPage.xaml" expanded="True" />
+                </Node>
               </Node>
             </Node>
+            <Node name="YoutubeSolution.Android" expanded="True" />
           </Node>
         </State>
       </Pad>

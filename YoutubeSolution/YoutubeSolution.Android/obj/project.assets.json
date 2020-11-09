@@ -11,6 +11,19 @@
           "lib/netstandard2.0/CommonServiceLocator.dll": {}
         }
       },
+      "FirebaseAuthentication.net/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        }
+      },
       "MvvmLightLibs/5.4.1.1": {
         "type": "package",
         "dependencies": {
@@ -25,6 +38,15 @@
           "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll": {},
           "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll": {},
           "lib/monoandroid1/GalaSoft.MvvmLight.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "sqlite-net-pcl/1.7.335": {
@@ -922,7 +944,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "3.4.0",
           "MvvmLightLibs": "5.4.1.1",
+          "Newtonsoft.Json": "12.0.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675",
           "sqlite-net-pcl": "1.7.335"
@@ -952,6 +976,18 @@
         "lib/netcoreapp1.0/CommonServiceLocator.dll",
         "lib/netstandard1.0/CommonServiceLocator.dll",
         "lib/netstandard2.0/CommonServiceLocator.dll"
+      ]
+    },
+    "FirebaseAuthentication.net/3.4.0": {
+      "sha512": "KLoD8nqKe2OwZ9SqyblEle0LM7QtDMEf7eqwzUQxAkMiViKvbSb8Rp9UGTuSkMtsekdYDtreI2H7/5Fq+hnbwg==",
+      "type": "package",
+      "path": "firebaseauthentication.net/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "firebaseauthentication.net.3.4.0.nupkg.sha512",
+        "firebaseauthentication.net.nuspec",
+        "lib/netstandard1.1/Firebase.Auth.dll"
       ]
     },
     "MvvmLightLibs/5.4.1.1": {
@@ -1072,6 +1108,37 @@
         "lib/xamarin.ios10/GalaSoft.MvvmLight.pdb",
         "mvvmlightlibs.5.4.1.1.nupkg.sha512",
         "mvvmlightlibs.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "sqlite-net-pcl/1.7.335": {
@@ -2324,6 +2391,7 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
       "MvvmLightLibs >= 5.4.1.1",
+      "Newtonsoft.Json >= 12.0.3",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.908675",
       "YoutubeSolution >= 1.0.0",
@@ -2368,6 +2436,10 @@
           "MvvmLightLibs": {
             "target": "Package",
             "version": "[5.4.1.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

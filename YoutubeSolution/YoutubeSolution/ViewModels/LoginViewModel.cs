@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Firebase.Auth;
 using GalaSoft.MvvmLight.Command;
+using Newtonsoft.Json;
+using Xamarin.Essentials;
 using Xamarin.Forms;
-using YoutubeSolution.Models;
-using YoutubeSolution.Views.Tabbed;
 
 namespace YoutubeSolution.ViewModels
 {
@@ -85,12 +85,30 @@ namespace YoutubeSolution.ViewModels
                 return;
             }
 
+            string WebAPIkey = "AIzaSyDewQerdzU0rAZIcpETYdr-jOAeeHc2RUE";
+
+
+            var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
+            try
+            {
+                var auth = await authProvider.SignInWithEmailAndPasswordAsync(EmailTxt.ToString(), PasswordTxt.ToString());
+                var content = await auth.GetFreshAuthAsync();
+                var serializedcontnet = JsonConvert.SerializeObject(content);
+                
+                Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
+            }
+            catch (Exception ex)
+            {
+                await App.Current.MainPage.DisplayAlert("Alert", "Invalid useremail or password", "OK");
+            }
+
             this.IsVisibleTxt = true;
             this.IsRunningTxt = true;
             this.IsEnabledTxt = false;
 
             await Task.Delay(20);
 
+            /*
 
             List<UserModel> e = App.Database.GetUsersValidate(email, password).Result;
 
@@ -116,8 +134,30 @@ namespace YoutubeSolution.ViewModels
 
             }
 
+            */
+
+            this.IsRunningTxt = false;
+            this.IsVisibleTxt = false;
+            this.IsEnabledTxt = true;
 
         }
+
+        public async void ResetPasswordEmail()
+        {
+            string WebAPIkey = "AIzaSyBFwirWkzuv9RZX9lmhHFKqas9bYLHjwCE";
+
+            try
+            {
+                var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
+                await authProvider.SendPasswordResetEmailAsync(email);
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+        }
+
         #endregion
 
         #region Constructor

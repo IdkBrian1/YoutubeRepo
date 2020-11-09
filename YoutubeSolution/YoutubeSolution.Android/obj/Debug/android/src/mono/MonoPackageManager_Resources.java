@@ -4,10 +4,12 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "YoutubeSolution.Android.dll" comes first in this list. */
 		"YoutubeSolution.Android.dll",
 		"CommonServiceLocator.dll",
+		"Firebase.Auth.dll",
 		"FormsViewGroup.dll",
 		"GalaSoft.MvvmLight.dll",
 		"GalaSoft.MvvmLight.Extras.dll",
 		"GalaSoft.MvvmLight.Platform.dll",
+		"Newtonsoft.Json.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",

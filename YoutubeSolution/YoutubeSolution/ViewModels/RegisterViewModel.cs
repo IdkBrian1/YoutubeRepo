@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Firebase.Auth;
 using GalaSoft.MvvmLight.Command;
 using Xamarin.Forms;
 using YoutubeSolution.Models;
@@ -98,6 +99,22 @@ namespace YoutubeSolution.ViewModels
                 return;
             }
 
+            string WebAPIkey = "AIzaSyDewQerdzU0rAZIcpETYdr-jOAeeHc2RUE";
+
+            try
+            {
+                var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
+                var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(EmailTxt.ToString(), PasswordTxt.ToString());
+                string gettoken = auth.FirebaseToken;
+
+                await Application.Current.MainPage.Navigation.PushAsync(new LoginPage());
+            }
+            catch (Exception ex)
+            {
+                await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
+            }
+
+            /*
             if (string.IsNullOrEmpty(this.name))
             {
                 await Application.Current.MainPage.DisplayAlert(
@@ -138,7 +155,7 @@ namespace YoutubeSolution.ViewModels
             this.IsEnabledTxt = true;
 
             await Application.Current.MainPage.Navigation.PushAsync(new LoginPage());
-
+            */
         }
         #endregion
 
